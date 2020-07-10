@@ -11,13 +11,13 @@ import torchvision.transforms as transforms
 from tensorboardX import SummaryWriter
 from torchvision.utils import make_grid
 
-from utils.util import *
-from data.cocostuff_loader import *
-from data.vg import *
-from model.resnet_generator_v2 import *
-from model.rcnn_discriminator import *
-from model.sync_batchnorm import DataParallelWithCallback
-from utils.logger import setup_logger
+from LostGANs.utils.util import *
+from LostGANs.data.cocostuff_loader import *
+from LostGANs.data.vg import *
+from LostGANs.model.resnet_generator_v2 import *
+from LostGANs.model.rcnn_discriminator import *
+from LostGANs.model.sync_batchnorm import DataParallelWithCallback
+from LostGANs.utils.logger import setup_logger
 
 
 def get_dataset(dataset, img_size):
