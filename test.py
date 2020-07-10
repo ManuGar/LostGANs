@@ -10,7 +10,6 @@ from LostGANs.data.vg import *
 from LostGANs.model.resnet_generator_v2 import *
 from LostGANs.utils.util import *
 
-
 def get_dataloader(dataset = 'coco', img_size=128):
     if dataset == 'coco':
         dataset = CocoSceneGraphDataset(image_dir='./datasets/coco/val2017/',
