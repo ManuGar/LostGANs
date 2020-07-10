@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from utils.bilinear import *
+from LostGANs.utils.bilinear import *
 from .sync_batchnorm import SynchronizedBatchNorm2d
 import pickle
 import numpy as np

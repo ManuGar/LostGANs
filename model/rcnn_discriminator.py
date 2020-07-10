@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from .roi_layers import ROIAlign, ROIPool
-from utils.util import *
-from utils.bilinear import *
+from LostGANs.utils.util import *
+from LostGANs.utils.bilinear import *
 
 
 def conv2d(in_feat, out_feat, kernel_size=3, stride=1, pad=1, spectral_norm=True):
